@@ -1,18 +1,8 @@
-$font: 'Plus Jakarta Sans', sans-serif;
-$font-weight-300: 300;
-$font-weight-400: 400;
-$font-weight-700: 700;
-$font-weight-800: 800;
-$font-weight-900: 900;
-$color-3d3d3d: #3d3d3d;
-$color-fff: #fff;
-$color-111111: #111111;
-
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   position: relative;
-  color: #3d3d3d;
+  color: #000;
   background: #fff;
 }
 
@@ -59,7 +49,7 @@ ul {
 }
 
 .container {
-  max-width: 1224px;
+  max-width: 1360px;
 }
 
 /*==== sticky-nev start=== */
@@ -70,7 +60,7 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #07222d;
   z-index: 9999;
   display: flex;
   justify-content: center;
@@ -80,7 +70,7 @@ ul {
   }
 }
 .ratio-16x9 {
-  --bs-aspect-ratio: 56.25%;
+  padding-top: 56.25%;
 }
 .ratio {
   position: relative;
@@ -93,3 +83,434 @@ ul {
   width: 100%;
   height: 100%;
 }
+.text-end {
+  text-align: end;
+}
+// header start
+header {
+  background: #07222d;
+  padding: 23px 0 24px 0;
+  .container {
+    max-width: 1264px;
+  }
+  a {
+    &.logo {
+      width: 123px;
+    }
+  }
+  button {
+    background-color: transparent;
+    border: 0;
+    // img {
+    // }
+  }
+  .menuBar {
+    .showMenu {
+      border: 1px solid transparent;
+      padding: 8px;
+      border-radius: 5px;
+      transition: all ease 0.6s;
+      &:active,
+      &:focus,
+      &:hover {
+        border: 1px solid #fff;
+      }
+      img {
+        width: 45px;
+      }
+    }
+    .fixedMenu {
+      width: 300px;
+      max-width: 100%;
+      min-height: 100vh;
+      position: fixed;
+      background-color: #07222d;
+      color: #fff;
+      top: 0;
+      right: 0;
+      z-index: 999;
+      text-align: center;
+      transition: all ease 0.4s;
+      padding: 20px;
+      opacity: 0;
+      right: -300px;
+      &.active {
+        right: 0px;
+        opacity: 1;
+        transition: all ease 0.4s;
+      }
+      .crowsButton {
+        text-align: end;
+        margin-bottom: 30px;
+        button {
+          border-radius: 50%;
+          border: 2px solid transparent;
+          width: 42px;
+          height: 42px;
+          text-align: center;
+          transition: all ease 0.6s;
+          svg {
+            fill: #fff;
+            width: 30px;
+            height: 30px;
+          }
+          &:hover {
+            border: 2px solid red;
+            svg {
+              fill: red;
+            }
+          }
+        }
+      }
+      .menuLink {
+        li {
+          margin-bottom: 10px;
+          a {
+            color: #fff;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 45px;
+            display: block;
+            &:hover {
+              background-color: #000;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+      .menuSocial {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 40px;
+        li {
+          a {
+            svg {
+              width: 25px;
+              height: 25px;
+              &:hover {
+                fill: #000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.align-self-center {
+  align-self: center;
+}
+// header end
+// MillionaireDraw start
+.MillionaireDraw {
+  .container {
+    max-width: 1340px;
+    margin-right: 0;
+    padding: 0;
+  }
+  .itemLeft {
+    max-width: 565px;
+    h2 {
+      color: #000;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #000;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35px;
+      margin-bottom: 5px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      strong {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 8px;
+      }
+    }
+  }
+  .itemRight {
+    max-width: 720px;
+    display: block;
+    margin-left: auto;
+    // img {
+    // }
+  }
+  &.ourCommunity {
+    .itemLeft {
+      max-width: 582px;
+      width: 582px;
+      ul {
+        display: flex;
+        gap: 50px;
+        margin-top: 40px;
+        li {
+          align-self: center;
+        }
+      }
+    }
+  }
+}
+.text-center {
+  text-align: center;
+}
+// MillionaireDraw end
+// myTickets start
+.myTickets {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f7f7f7;
+  .container {
+    max-width: 1220px;
+  }
+  .sliderWrapp {
+    position: relative;
+    .slider {
+      .sliderItme {
+        margin: 0 10px;
+        img {
+          display: block;
+          margin: auto;
+        }
+      }
+    }
+    .arrow {
+      width: 106%;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 50%;
+      left: -3%;
+      transform: translateY(-50%);
+      button {
+        background-color: transparent;
+        border: 0;
+      }
+      .ArrowPrev {
+        left: -30px;
+        // img {
+        // }
+      }
+      .ArrowNext {
+        right: -30px;
+        // img {
+        // }
+      }
+    }
+  }
+  &.winners {
+    .sliderWinner {
+      .sliderItme {
+        margin: 0 20px;
+        text-align: center;
+        img {
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 21px;
+        }
+        h4 {
+          color: #000;
+          text-align: center;
+
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 24px;
+        }
+      }
+    }
+    .arrow {
+      top: 40%;
+    }
+  }
+}
+.commonTitle {
+  margin-bottom: 40px;
+  h2 {
+    color: #333;
+    text-align: center;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 15px;
+  }
+  p {
+    color: #000;
+    text-align: center;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 0;
+  }
+  &.winners {
+    .sliderWinner {
+      .sliderItme {
+        margin: 0 20px;
+
+        img {
+        }
+        h4 {
+          color: #000;
+          text-align: center;
+
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 24px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+// myTickets end
+.qrBox {
+  .itemLeft {
+    img {
+    }
+  }
+  .itemRight {
+    .qrCode {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+    a {
+      padding: 15.086px 40.543px;
+      border-radius: 47.143px;
+      background: #07222d;
+      color: #fff;
+      text-align: center;
+      font-size: 22.629px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 22.629px;
+      transition: all ease 0.5s;
+      &:hover {
+        background-color: #000;
+      }
+      .walletImg {
+        margin-right: 19.8px;
+      }
+    }
+  }
+}
+// footer start
+footer {
+  background: #07222d;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: #fff;
+  .container {
+    max-width: 1218px;
+  }
+  .itemLeft {
+    .logoImg {
+      img {
+        width: 228px;
+      }
+    }
+    ul {
+      margin-top: 50px;
+      display: flex;
+      gap: 40px;
+      li {
+        align-self: center;
+        a {
+          svg {
+          }
+        }
+      }
+    }
+  }
+  .itemLink {
+    h4 {
+      color: #fff;
+
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    ul {
+      li {
+        line-height: 60px;
+        a {
+          color: #fff;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 60px;
+        }
+      }
+    }
+  }
+  .itemEnd {
+    h4 {
+      margin-bottom: 44px;
+      color: #fff;
+
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+    ul {
+      li {
+        margin-bottom: 40px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        a {
+          color: #fff;
+
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          position: relative;
+          padding-left: 50px;
+          svg {
+            position: absolute;
+            left: 0;
+            top: 2px;
+          }
+          span {
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+    text-align: center;
+    p {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+      margin-bottom: 0;
+    }
+  }
+}
+// footer end

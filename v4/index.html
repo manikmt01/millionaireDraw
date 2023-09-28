@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="Web Content">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="author">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-script-type" content="text/javascript">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fevricon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/fevricon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fevricon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/fevricon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fevricon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- slick slider css  -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Millionaire Draw || 2023</title>
+</head>
+
+<body>
+
+    <!-- header start  -->
+    <header>
+        <div class="container">
+            <!-- row start  -->
+            <div class="row">
+                <!-- single item start  -->
+                <div class="col-6 align-self-center">
+                    <a href="index.html" class="logo"><img src="img/logo.svg" alt="img" class="img-fluid"></a>
+                </div>
+                <!-- single item end -->
+
+                <!-- single item start  -->
+                <div class="col-6 text-end  align-self-center">
+                    <div class="menuBar">
+                        <button type="button" class="showMenu"><img src="img/bar.svg" alt="img"
+                                class="img-fluid"></button>
+                        <div class="fixedMenu">
+                            <!-- crows button start  -->
+                            <div class="crowsButton">
+                                <button><svg class="ast-mobile-svg ast-close-svg" fill="currentColor" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path
+                                            d="M5.293 6.707l5.293 5.293-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-5.293-5.293 5.293-5.293c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z">
+                                        </path>
+                                    </svg></button>
+                            </div>
+                            <!-- crows button end -->
+                            <ul class="menuLink">
+                                <li><a href="index.html" class="active">Home</a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="prize-draw-rules.html">Prize draw Rules</a></li>
+                            </ul>
+
+                            <ul class="menuSocial">
+
+                                <li><a href="https://facebook.com/millionairedraw" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="45"
+                                            viewBox="0 0 24 45" fill="none">
+                                            <path
+                                                d="M22.9767 0H17.3023C10.8837 0 6.69768 4.34874 6.69768 11.0609V16.166H0.930233C0.465116 16.166 0 16.5441 0 17.1113V24.4853C0 24.958 0.372093 25.4307 0.930233 25.4307H6.69768V44.0546C6.69768 44.5273 7.06977 45 7.62791 45H15.1628C15.6279 45 16.093 44.6218 16.093 44.0546V25.3361H22.7907C23.2558 25.3361 23.7209 24.958 23.7209 24.3908V17.0168C23.7209 16.7332 23.6279 16.5441 23.4419 16.355C23.2558 16.166 23.0698 16.0714 22.7907 16.0714H16.093V11.7227C16.093 9.64286 16.5581 8.60294 19.2558 8.60294H23.0698C23.5349 8.60294 24 8.22479 24 7.65756V0.945378C23.814 0.378151 23.4419 0 22.9767 0Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a></li>
+                                <li><a href="https://www.instagram.com/millionairedraw/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41"
+                                            viewBox="0 0 40 41" fill="none">
+                                            <path
+                                                d="M28.9008 0.347168H11.0568C5.03575 0.347168 0 5.32087 0 11.5104V29.5262C0 35.6051 4.92628 40.6894 11.0568 40.6894H28.9008C34.9218 40.6894 39.9576 35.7157 39.9576 29.5262V11.5104C39.8481 5.32087 34.9218 0.347168 28.9008 0.347168ZM36.345 29.5262C36.345 33.7262 32.9513 37.042 28.9008 37.042H11.0568C6.89679 37.042 3.6126 33.6157 3.6126 29.5262V11.5104C3.6126 7.31035 7.00626 3.99453 11.0568 3.99453H28.9008C33.0608 3.99453 36.345 7.42088 36.345 11.5104V29.5262Z"
+                                                fill="white" />
+                                            <path
+                                                d="M19.3155 10.2432C13.6229 10.2432 9.02502 14.8853 9.02502 20.6327C9.02502 26.3801 13.6229 31.0222 19.3155 31.0222C25.008 31.0222 29.6059 26.3801 29.6059 20.6327C29.6059 14.8853 25.008 10.2432 19.3155 10.2432ZM19.3155 27.4853C15.5934 27.4853 12.5282 24.3906 12.5282 20.6327C12.5282 16.8748 15.5934 13.78 19.3155 13.78C23.0375 13.78 26.1028 16.8748 26.1028 20.6327C26.1028 24.3906 23.0375 27.4853 19.3155 27.4853Z"
+                                                fill="white" />
+                                            <path
+                                                d="M30.6523 7.08887C29.9954 7.08887 29.3386 7.42043 28.7912 7.86253C28.3533 8.30464 28.0249 9.07834 28.0249 9.7415C28.0249 10.4047 28.3533 11.0678 28.7912 11.6204C29.2291 12.0625 29.9954 12.3941 30.6523 12.3941C31.3091 12.3941 31.9659 12.0625 32.5133 11.6204C32.9512 11.1783 33.2796 10.4047 33.2796 9.7415C33.2796 9.07834 32.9512 8.41517 32.5133 7.86253C31.9659 7.42043 31.3091 7.08887 30.6523 7.08887Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a></li>
+                                <li><a href="https://twitter.com/millionairedraw" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="49" height="40"
+                                            viewBox="0 0 49 40" fill="none">
+                                            <path
+                                                d="M48.9575 4.58234C47.1866 5.34606 45.2294 5.91886 43.2721 6.20525C45.3226 4.9642 46.907 2.95942 47.5595 0.668255C45.6954 1.81384 43.5517 2.67303 41.3148 3.15035C39.5439 1.14558 36.9342 0 34.1381 0C28.7323 0 24.3517 4.48687 24.3517 10.1193C24.3517 10.8831 24.4449 11.6468 24.5381 12.4105C16.3362 12.0286 9.15946 8.01909 4.21966 1.90931C3.38082 3.43675 2.9148 5.15513 2.9148 6.96897C2.9148 10.5012 4.68568 13.5561 7.29538 15.3699C5.71092 15.3699 4.12645 14.8926 2.8216 14.1289V14.2243C2.8216 19.0931 6.27014 23.1981 10.7439 24.1528C9.90509 24.3437 9.06626 24.4391 8.13422 24.4391C7.48179 24.4391 6.82936 24.4391 6.27014 24.2482C7.575 28.2578 11.1167 31.2172 15.4973 31.3127C12.142 33.9857 7.85461 35.6086 3.28762 35.6086C2.44878 35.6086 1.70315 35.6086 0.95752 35.5131C5.3381 38.3771 10.4643 40 16.0565 40C34.1381 40 44.0177 24.6301 44.0177 11.3604C44.0177 10.8831 44.0177 10.5012 44.0177 10.0239C45.975 8.40096 47.6527 6.58711 48.9575 4.58234Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a></li>
+
+                                <li><a href="https://millionairedraw.com" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#fff">
+                                            <path
+                                                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                            </path>
+                                        </svg>
+                                    </a></li>
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- single item end -->
+
+            </div>
+            <!-- row end -->
+        </div>
+    </header>
+    <!-- header end -->
+
+    <section class="bannerVideo ">
+        <div class="video-container ratio ratio-16x9">
+            <iframe
+                src="https://iframe.mediadelivery.net/embed/154923/178196a5-3bcf-4c70-bc6d-281796e10f99?autoplay=true&amp;loop=false&amp;muted=true&amp;preload=true"
+                loading="lazy" allowfullscreen="true" controls="false"></iframe>
+        </div>
+
+    </section>
+
+    <!-- The Millionaire Draw  -->
+    <div class="MillionaireDraw">
+        <div class="container">
+            <!-- row start  -->
+            <div class="row g-0">
+                <!-- single item start  -->
+                <div class="col-lg-5 align-self-center text-center">
+                    <div class="itemLeft">
+                        <h2>The Millionaire Draw</h2>
+                        <p>
+                            <span> No trees were harmed in this promotion.</span>
+                            <span> Everything we do is paperless to help protect the planet.</span>
+                            <span>We are the biggest <strong>FREE PRIZE DRAW</strong> in the United
+                                Kingdom.</span>
+                            <span>Our Jackpot Prize is £1 Million Tax Free.</span>
+                            <span>Amazing bonus prizes from the UK’s best experience companies. Fancy
+                                driving a Ferrari around
+                                Brand’s Hatch?</span>
+                            <span>With over 500 experiences to choose from, you won’t be
+                                disappointed.</span>
+                            <span>
+                                Every time you shop at one of our partner locations, you receive free entries into our
+                                prize
+                                draw.</span>
+                            <span>For every £1 your spend, you have another chance to win.</span>
+                            <span>Get your Free Membership Pass below and show it when you shop.</span>
+                            <span>It’s that easy.</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- single item end -->
+                <!-- single item start -->
+                <div class="col-lg-7 align-self-center d-none ">
+                    <div class="itemRight">
+                        <img src="img/img1.jpg" alt="img" class="img-fluid">
+                    </div>
+                </div>
+                <!-- single item end -->
+            </div>
+            <!-- row end -->
+        </div>
+    </div>
+    <!-- The Millionaire end -->
+    <!-- Where can I get my Tickets? start  -->
+    <div class="myTickets">
+        <div class="container">
+            <div class="commonTitle">
+                <h2>Where can I get my Tickets?</h2>
+                <p>We work with partner locations across the country. Check out our Locations Map below.
+                    Participating branches only.</p>
+            </div>
+            <!-- sliderWrapp start  -->
+            <div class="sliderWrapp">
+                <!-- slider item start  -->
+                <div class="slider">
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/1.svg" alt="img" class="img-fluid">
+                    </div>
+                    <!-- .slider item img -->
+
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/2.svg" alt="img" class="img-fluid">
+                    </div>
+                    <!-- .slider item img -->
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/3.svg" alt="img" class="img-fluid">
+                    </div>
+                    <!-- .slider item img -->
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/4.svg" alt="img" class="img-fluid">
+                    </div>
+                    <!-- .slider item img -->
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/2.svg" alt="img" class="img-fluid">
+                    </div>
+                    <!-- .slider item img -->
+
+                </div>
+                <!-- slider  end  -->
+                <!-- arrow start  -->
+                <div class="arrow">
+                    <button type="button" class="ArrowPrev"><img src="img/arrowLeft.svg" alt="img"
+                            class="img-fluid"></button>
+                    <button type="button" class="ArrowNext"><img src="img/arrow-right.svg" alt="img"
+                            class="img-fluid"></button>
+                </div>
+                <!-- arrow end -->
+            </div>
+            <!-- sliderWrapp end -->
+        </div>
+    </div>
+    <!-- Where can I get my Tickets? end -->
+
+
+    <!-- qr box start  -->
+    <div class="qrBox">
+        <!-- row start  -->
+        <div class="row g-0">
+            <!-- single item start  -->
+            <div class="col-lg-6">
+                <div class="itemLeft">
+                    <img src="img/QR-img1.jpg" alt="img" class="img-fluid">
+                </div>
+            </div>
+            <!-- single item end  -->
+
+            <!-- single item start  -->
+            <div class="col-lg-6 text-center align-self-center">
+                <div class="itemRight ">
+                    <img src="img/QR1.svg" alt="img" class="img-fluid qrCode d-none">
+                    <a href=""><img src="img/apple-wallet.svg" alt="img" class="img-fluid walletImg"> Add to Apple
+                        Wallet</a>
+                </div>
+            </div>
+            <!-- single item end  -->
+        </div>
+        <!-- row end -->
+
+        <!-- row start  -->
+        <div class="row g-0 mt-50" dir="rtl">
+            <!-- single item start  -->
+            <div class="col-lg-6" dir="ltr">
+                <div class="itemLeft">
+                    <img src="img/QR-img2.jpg" alt="img" class="img-fluid">
+                </div>
+            </div>
+            <!-- single item end  -->
+            <!-- single item start  -->
+            <div class="col-lg-6 text-center align-self-center" dir="ltr">
+                <div class="itemRight ">
+                    <img src="img/QR1.svg" alt="img" class="img-fluid qrCode d-none">
+                    <a href=""><img src="img/google-wallet.svg" alt="img" class="img-fluid walletImg"> Add to Google
+                        Wallet</a>
+                </div>
+            </div>
+            <!-- single item end  -->
+
+        </div>
+        <!-- row end -->
+
+    </div>
+    <!-- qr box end -->
+    <!-- Where can I get my Tickets? start  -->
+    <div class="myTickets winners">
+        <div class="container">
+            <div class="commonTitle">
+                <h2>Previous Winners</h2>
+                <p>It’s not just about the Jackpot. We give away amazing prizes every month.
+                    Here are some of our latest winners. Could you be next?</p>
+            </div>
+            <!-- sliderWrapp start  -->
+            <div class="sliderWrapp">
+                <!-- slider item start  -->
+                <div class="sliderWinner">
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/winner-1.jpg" alt="img" class="img-fluid">
+                        <h4>Flores, Juanita</h4>
+                    </div>
+                    <!-- .slider item img -->
+
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/winner-2.jpg" alt="img" class="img-fluid">
+                        <h4>Henry, Arthur</h4>
+                    </div>
+                    <!-- .slider item img -->
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/winner-3.jpg" alt="img" class="img-fluid">
+                        <h4>Cooper, Kristin</h4>
+                    </div>
+                    <!-- .slider item img -->
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/winner-4.jpg" alt="img" class="img-fluid">
+                        <h4>Nguyen, Shane</h4>
+                    </div>
+                    <!-- .slider item img -->
+                    <!-- .slider item start  -->
+                    <div class="sliderItme">
+                        <img src="img/winner-2.jpg" alt="img" class="img-fluid">
+                        <h4>Henry, Arthur</h4>
+                    </div>
+                    <!-- .slider item img -->
+
+                </div>
+                <!-- slider  end  -->
+                <!-- arrow start  -->
+                <div class="arrow">
+                    <button type="button" class="PrevArrow"><img src="img/arrowLeft.svg" alt="img"
+                            class="img-fluid"></button>
+                    <button type="button" class="NextArrow"><img src="img/arrow-right.svg" alt="img"
+                            class="img-fluid"></button>
+                </div>
+                <!-- arrow end -->
+            </div>
+            <!-- sliderWrapp end -->
+        </div>
+    </div>
+    <!-- Where can I get my Tickets? end -->
+
+    <!-- google map start  -->
+    <div class="googleMap">
+        <div class="container">
+            <div class="ratio ratio-16x9">
+                <iframe loading="lazy"
+                    src="https://www.google.com/maps/d/embed?mid=1KubIMj-IOO3Qlc7v8N_9wqplyI_gA0w&ehbc=2E312F"
+                    width="640" height="620"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- google map end -->
+    <!-- ourCommunity start  -->
+    <div class="MillionaireDraw ourCommunity">
+        <div class="container">
+            <!-- row start  -->
+            <div class="row g-0">
+                <!-- single item start  -->
+                <div class="col-lg-12 ">
+                    <div class="itemLeft text-center">
+                        <h2>Join Our Community</h2>
+                        <p>We love to share, and we can't wait To meet you.
+
+                            Have fun, stay safe and share your experiences.
+
+                            The adventure begins.</p>
+                        <ul>
+                            <li><a href="https://facebook.com/millionairedraw" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82"
+                                        fill="none">
+                                        <circle cx="41" cy="41" r="41" fill="#E6E6E6" />
+                                        <path
+                                            d="M44.3951 51.2537C44.3951 54.345 44.3668 57.4387 44.413 60.53C44.4259 61.3181 44.1662 61.5139 43.3718 61.4992C40.8779 61.4527 38.3789 61.4527 35.885 61.4992C35.0777 61.5139 34.8489 61.2961 34.854 60.5227C34.8849 54.3719 34.854 48.2187 34.8926 42.0655C34.8978 41.2309 34.7229 40.8956 33.7794 40.9788C32.7972 41.0645 31.7971 40.9788 30.8073 41.0057C30.3034 41.0204 30.0591 40.9078 30.0668 40.3669C30.0925 38.5117 30.09 36.6564 30.0694 34.8011C30.0617 34.2676 30.3059 34.1452 30.8124 34.1599C31.8383 34.1868 32.8692 34.1109 33.8873 34.1843C34.7409 34.248 34.8926 33.9249 34.8926 33.1906C34.8926 31.1763 34.7332 29.157 35.1009 27.1525C35.9544 22.4727 39.0731 21.1192 42.8756 20.6884C45.4929 20.3898 48.1333 20.5465 50.766 20.5049C51.401 20.4951 51.5862 20.6958 51.5759 21.2856C51.5425 23.0748 51.545 24.8664 51.5759 26.6556C51.5862 27.2137 51.3908 27.3801 50.8149 27.3752C49.4137 27.363 48.0073 27.3483 46.6138 27.456C45.0249 27.5783 44.5622 28.0409 44.467 29.5291C44.3822 30.8581 44.4336 32.1969 44.3873 33.5284C44.3693 34.0669 44.6136 34.1819 45.1175 34.1746C46.9635 34.155 48.812 34.1966 50.6555 34.1525C51.3702 34.1354 51.6144 34.2969 51.5065 35.0165C51.2545 36.7274 51.0591 38.4407 50.892 40.1589C50.8303 40.7977 50.6066 41.0449 49.8893 41.018C48.4212 40.9617 46.9455 41.0669 45.48 40.9764C44.5159 40.9176 44.3642 41.2578 44.3771 42.0753C44.4233 45.1323 44.3951 48.1942 44.3951 51.2537Z"
+                                            fill="#07222D" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://www.instagram.com/millionairedraw/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82"
+                                        fill="none">
+                                        <circle cx="41" cy="41" r="41" fill="#E6E6E6" />
+                                        <path
+                                            d="M49.8051 21.8667H32.5553C26.7348 21.8667 21.8667 26.6748 21.8667 32.6582V50.0741C21.8667 55.9506 26.6289 60.8655 32.5553 60.8655H49.8051C55.6256 60.8655 60.4937 56.0574 60.4937 50.0741V32.6582C60.3879 26.6748 55.6256 21.8667 49.8051 21.8667ZM57.0014 50.0741C57.0014 54.1342 53.7208 57.3396 49.8051 57.3396H32.5553C28.5338 57.3396 25.359 54.0274 25.359 50.0741V32.6582C25.359 28.598 28.6397 25.3926 32.5553 25.3926H49.8051C53.8266 25.3926 57.0014 28.7049 57.0014 32.6582V50.0741Z"
+                                            fill="#07222D" />
+                                        <path
+                                            d="M40.5392 31.4331C35.0362 31.4331 30.5914 35.9206 30.5914 41.4766C30.5914 47.0326 35.0362 51.5202 40.5392 51.5202C46.0422 51.5202 50.487 47.0326 50.487 41.4766C50.487 35.9206 46.0422 31.4331 40.5392 31.4331ZM40.5392 48.1011C36.9411 48.1011 33.9779 45.1094 33.9779 41.4766C33.9779 37.8439 36.9411 34.8522 40.5392 34.8522C44.1373 34.8522 47.1005 37.8439 47.1005 41.4766C47.1005 45.1094 44.1373 48.1011 40.5392 48.1011Z"
+                                            fill="#07222D" />
+                                        <path
+                                            d="M51.4984 28.3843C50.8634 28.3843 50.2284 28.7048 49.6993 29.1322C49.276 29.5596 48.9585 30.3075 48.9585 30.9486C48.9585 31.5897 49.276 32.2307 49.6993 32.7649C50.1226 33.1923 50.8634 33.5129 51.4984 33.5129C52.1333 33.5129 52.7683 33.1923 53.2974 32.7649C53.7207 32.3376 54.0382 31.5897 54.0382 30.9486C54.0382 30.3075 53.7207 29.6664 53.2974 29.1322C52.7683 28.7048 52.1333 28.3843 51.4984 28.3843Z"
+                                            fill="#07222D" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://twitter.com/millionairedraw" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82"
+                                        fill="none">
+                                        <circle cx="41" cy="41" r="41" fill="#E6E6E6" />
+                                        <path
+                                            d="M60.2412 25.2313C59.6014 27.2061 58.3907 28.5212 56.7447 29.7474C58.413 29.5919 59.7702 29.1321 61.3497 28.5523C60.4078 30.0406 59.3882 31.1536 58.193 32.071C57.5355 32.5753 57.3222 33.1062 57.3156 33.9237C57.2312 45.3196 49.3784 54.8894 38.087 57.1375C32.1247 58.326 26.3934 57.3974 21.0687 54.3518C20.8776 54.243 20.6244 54.1897 20.5 53.8587C24.934 54.243 28.9125 53.1323 32.6267 50.3888C28.8237 49.9801 26.2424 48.1807 24.8429 44.6465C26.0669 44.6442 27.1842 44.8197 28.3416 44.431C23.8188 42.5028 21.7751 39.8793 21.9128 36.1806C23.0146 36.5516 24.0698 37.0892 25.456 37.0114C24.1942 35.9985 23.2323 34.9433 22.6392 33.6016C21.6418 31.3424 21.6618 29.0854 22.6414 26.8196C22.9058 26.2087 23.0902 26.0576 23.6144 26.653C26.74 30.2028 30.6119 32.5886 35.1569 33.8792C36.6941 34.3146 38.2625 34.5834 39.8574 34.699C40.2795 34.7301 40.4639 34.7101 40.3995 34.1503C39.8863 29.6608 42.4032 25.9621 46.7838 24.8647C49.6117 24.1561 52.1685 24.8981 54.3766 26.7618C54.8231 27.1395 55.1808 27.2128 55.7139 27.0706C57.2334 26.6663 58.684 26.0976 60.2412 25.2313Z"
+                                            fill="#07222D" />
+                                    </svg>
+                                </a></li>
+
+                            <li><a href="https://millionairedraw.com" target="_blank">
+                                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <ellipse cx="29.1556" cy="29.1556" rx="29.1556" ry="29.1556" fill="#E6E6E6" />
+                                        <path
+                                            d="M42.5822 21.7858C42.2441 20.4924 41.2481 19.4738 39.9835 19.1281C37.6914 18.5 28.5 18.5 28.5 18.5C28.5 18.5 19.3087 18.5 17.0165 19.1281C15.7519 19.4739 14.7559 20.4924 14.4179 21.7858C13.8037 24.1301 13.8037 29.0212 13.8037 29.0212C13.8037 29.0212 13.8037 33.9124 14.4179 36.2566C14.7559 37.55 15.7519 38.5262 17.0165 38.8719C19.3087 39.5 28.5 39.5 28.5 39.5C28.5 39.5 37.6913 39.5 39.9835 38.8719C41.2481 38.5262 42.2441 37.55 42.5822 36.2566C43.1963 33.9124 43.1963 29.0212 43.1963 29.0212C43.1963 29.0212 43.1963 24.1301 42.5822 21.7858ZM25.4939 33.462V24.5804L33.1761 29.0213L25.4939 33.462Z"
+                                            fill="black" />
+                                    </svg>
+
+                                </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- single item end -->
+
+            </div>
+            <!-- row end -->
+        </div>
+    </div>
+    <!-- ourCommunity end  -->
+
+    <footer>
+        <div class="container">
+            <!-- row start  -->
+            <div class="row g-0">
+                <!-- single item start  -->
+                <div class="col-lg-3">
+                    <div class="itemLeft">
+                        <a href="index.html" class="logoImg"><img src="img/logo.svg" alt="img" class="img-fluid"></a>
+                        <ul>
+                            <li><a href="https://facebook.com/millionairedraw" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="45" viewBox="0 0 24 45"
+                                        fill="none">
+                                        <path
+                                            d="M22.9767 0H17.3023C10.8837 0 6.69768 4.34874 6.69768 11.0609V16.166H0.930233C0.465116 16.166 0 16.5441 0 17.1113V24.4853C0 24.958 0.372093 25.4307 0.930233 25.4307H6.69768V44.0546C6.69768 44.5273 7.06977 45 7.62791 45H15.1628C15.6279 45 16.093 44.6218 16.093 44.0546V25.3361H22.7907C23.2558 25.3361 23.7209 24.958 23.7209 24.3908V17.0168C23.7209 16.7332 23.6279 16.5441 23.4419 16.355C23.2558 16.166 23.0698 16.0714 22.7907 16.0714H16.093V11.7227C16.093 9.64286 16.5581 8.60294 19.2558 8.60294H23.0698C23.5349 8.60294 24 8.22479 24 7.65756V0.945378C23.814 0.378151 23.4419 0 22.9767 0Z"
+                                            fill="white" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://www.instagram.com/millionairedraw/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41"
+                                        fill="none">
+                                        <path
+                                            d="M28.9008 0.347168H11.0568C5.03575 0.347168 0 5.32087 0 11.5104V29.5262C0 35.6051 4.92628 40.6894 11.0568 40.6894H28.9008C34.9218 40.6894 39.9576 35.7157 39.9576 29.5262V11.5104C39.8481 5.32087 34.9218 0.347168 28.9008 0.347168ZM36.345 29.5262C36.345 33.7262 32.9513 37.042 28.9008 37.042H11.0568C6.89679 37.042 3.6126 33.6157 3.6126 29.5262V11.5104C3.6126 7.31035 7.00626 3.99453 11.0568 3.99453H28.9008C33.0608 3.99453 36.345 7.42088 36.345 11.5104V29.5262Z"
+                                            fill="white" />
+                                        <path
+                                            d="M19.3155 10.2432C13.6229 10.2432 9.02502 14.8853 9.02502 20.6327C9.02502 26.3801 13.6229 31.0222 19.3155 31.0222C25.008 31.0222 29.6059 26.3801 29.6059 20.6327C29.6059 14.8853 25.008 10.2432 19.3155 10.2432ZM19.3155 27.4853C15.5934 27.4853 12.5282 24.3906 12.5282 20.6327C12.5282 16.8748 15.5934 13.78 19.3155 13.78C23.0375 13.78 26.1028 16.8748 26.1028 20.6327C26.1028 24.3906 23.0375 27.4853 19.3155 27.4853Z"
+                                            fill="white" />
+                                        <path
+                                            d="M30.6523 7.08887C29.9954 7.08887 29.3386 7.42043 28.7912 7.86253C28.3533 8.30464 28.0249 9.07834 28.0249 9.7415C28.0249 10.4047 28.3533 11.0678 28.7912 11.6204C29.2291 12.0625 29.9954 12.3941 30.6523 12.3941C31.3091 12.3941 31.9659 12.0625 32.5133 11.6204C32.9512 11.1783 33.2796 10.4047 33.2796 9.7415C33.2796 9.07834 32.9512 8.41517 32.5133 7.86253C31.9659 7.42043 31.3091 7.08887 30.6523 7.08887Z"
+                                            fill="white" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://twitter.com/millionairedraw" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="49" height="40" viewBox="0 0 49 40"
+                                        fill="none">
+                                        <path
+                                            d="M48.9575 4.58234C47.1866 5.34606 45.2294 5.91886 43.2721 6.20525C45.3226 4.9642 46.907 2.95942 47.5595 0.668255C45.6954 1.81384 43.5517 2.67303 41.3148 3.15035C39.5439 1.14558 36.9342 0 34.1381 0C28.7323 0 24.3517 4.48687 24.3517 10.1193C24.3517 10.8831 24.4449 11.6468 24.5381 12.4105C16.3362 12.0286 9.15946 8.01909 4.21966 1.90931C3.38082 3.43675 2.9148 5.15513 2.9148 6.96897C2.9148 10.5012 4.68568 13.5561 7.29538 15.3699C5.71092 15.3699 4.12645 14.8926 2.8216 14.1289V14.2243C2.8216 19.0931 6.27014 23.1981 10.7439 24.1528C9.90509 24.3437 9.06626 24.4391 8.13422 24.4391C7.48179 24.4391 6.82936 24.4391 6.27014 24.2482C7.575 28.2578 11.1167 31.2172 15.4973 31.3127C12.142 33.9857 7.85461 35.6086 3.28762 35.6086C2.44878 35.6086 1.70315 35.6086 0.95752 35.5131C5.3381 38.3771 10.4643 40 16.0565 40C34.1381 40 44.0177 24.6301 44.0177 11.3604C44.0177 10.8831 44.0177 10.5012 44.0177 10.0239C45.975 8.40096 47.6527 6.58711 48.9575 4.58234Z"
+                                            fill="white" />
+                                    </svg>
+                                </a></li>
+
+                            <li><a href="https://millionairedraw.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#fff" width="49"
+                                        height="40">
+                                        <path
+                                            d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                        </path>
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- single item end -->
+
+                <!-- single item start  -->
+                <div class="col-lg mt-30">
+                    <div class="itemLink">
+                        <h4>Useful links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- single item end -->
+                <!-- single item start  -->
+                <div class="col-lg mt-30">
+                    <div class="itemLink">
+                        <h4>Terms</h4>
+                        <ul>
+                            <li><a href="prize-draw-rules.html">Prize Draw Rules</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- single item end -->
+
+                <!-- single item start  -->
+                <div class="col-lg-4 mt-30">
+                    <div class="itemEnd">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li><a href="tel:+443333010088">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"
+                                        fill="none">
+                                        <path
+                                            d="M23.8485 33.9492C23.263 33.8504 22.6722 33.7759 22.0921 33.6484C19.8912 33.1644 17.877 32.2143 15.9239 31.1242C12.8897 29.4306 10.1832 27.3078 7.81882 24.7648C4.93543 21.6641 2.55132 18.2329 1.04901 14.2414C0.502147 12.7885 0.0998554 11.3006 0.0585487 9.7336C0.017242 8.15587 0.415043 6.73617 1.54379 5.58138C2.43997 4.66455 3.29125 3.69744 4.26914 2.86861C5.77773 1.5899 7.3842 1.59349 8.83173 2.93416C10.3637 4.35296 11.8516 5.82473 13.2417 7.38451C14.3103 8.5833 14.2932 10.2814 13.2587 11.5098C12.517 12.3907 11.6792 13.18 10.8441 13.9693C10.6771 14.1274 10.6618 14.236 10.7633 14.4417C11.5858 16.1065 12.7487 17.5199 14.0049 18.8633C15.2855 20.2327 16.6953 21.4548 18.2757 22.4695C18.6924 22.7371 19.1467 22.9464 19.5751 23.1978C19.7403 23.2948 19.8139 23.1978 19.9082 23.1044C20.5736 22.4408 21.2381 21.7763 21.9053 21.1154C22.5483 20.4787 23.2702 19.9965 24.2095 19.9292C25.0563 19.869 25.8169 20.098 26.449 20.6556C27.6847 21.7467 28.7928 22.9697 29.9664 24.1245C30.3678 24.5196 30.7692 24.9156 31.1338 25.3466C32.135 26.5311 32.1961 28.2354 31.211 29.4396C30.2654 30.5953 29.1654 31.6109 28.0977 32.6498C27.3425 33.3844 26.3772 33.7517 25.3302 33.8881C25.2556 33.898 25.1838 33.9286 25.1102 33.9501C24.689 33.9492 24.2688 33.9492 23.8485 33.9492ZM24.3235 32.0213C25.5223 32.0267 26.4428 31.6881 27.1629 30.897C27.8633 30.1274 28.6176 29.4136 29.345 28.6718C29.4375 28.5775 29.5255 28.4779 29.609 28.3746C30.1208 27.737 30.1262 27.0941 29.5722 26.4925C28.9876 25.8594 28.3671 25.2595 27.7583 24.6489C26.9699 23.8578 26.1859 23.0631 25.3858 22.2846C24.7995 21.7152 24.1413 21.709 23.5199 22.2352C23.4022 22.3348 23.2927 22.4453 23.1831 22.5548C22.4234 23.3118 21.67 24.0751 20.905 24.8267C20.3572 25.3646 19.7493 25.4634 19.0866 25.1284C18.6232 24.8941 18.159 24.6597 17.7145 24.3948C15.7138 23.2023 13.9735 21.6928 12.4021 19.984C11.0138 18.4745 9.74677 16.877 8.8919 14.9903C8.44022 13.9927 8.52732 13.4961 9.32203 12.7463C10.1428 11.9731 10.959 11.1946 11.7151 10.3577C12.2449 9.77132 12.2368 9.17686 11.7403 8.56624C11.6496 8.45489 11.5508 8.34983 11.4493 8.24836C10.2002 6.99569 8.95206 5.74302 7.70029 4.49304C6.89301 3.68666 6.18182 3.67858 5.37634 4.47329C4.60498 5.23387 3.84081 6.00163 3.07753 6.77119C2.70846 7.14296 2.39687 7.55602 2.22805 8.05978C1.87874 9.10143 1.95956 10.1565 2.17327 11.2027C2.50283 12.8136 3.11345 14.3285 3.83811 15.7967C5.11862 18.391 6.78436 20.723 8.7132 22.8691C12.1237 26.664 16.1682 29.5509 20.9705 31.3298C22.0948 31.7465 23.263 31.9764 24.3235 32.0213Z"
+                                            fill="white" />
+                                        <path
+                                            d="M34.0002 15.2386C33.9921 15.2458 33.9795 15.252 33.9759 15.261C33.7703 15.8303 33.4371 16.1078 32.9926 16.0791C32.4521 16.0441 32.1342 15.7343 32.0138 15.0886C31.5702 12.7081 30.6633 10.5224 29.2472 8.55766C27.3938 5.98767 25.0061 4.08307 22.0697 2.8735C20.9939 2.4299 19.876 2.13717 18.7382 1.90639C18.1123 1.77977 17.7711 1.29217 17.8896 0.739024C18.0082 0.186771 18.5137 -0.0898039 19.145 0.0260344C21.8255 0.516327 24.2832 1.53732 26.4985 3.12404C28.5917 4.62275 30.3077 6.47437 31.634 8.68428C32.7771 10.5889 33.526 12.6398 33.9328 14.8192C33.9472 14.8938 33.9777 14.9656 34.0002 15.0383C34.0002 15.1057 34.0002 15.1721 34.0002 15.2386Z"
+                                            fill="white" />
+                                        <path
+                                            d="M18.546 6.1377C19.1862 6.21582 19.8014 6.3577 20.3904 6.5768C24.4448 8.08091 26.9241 10.9517 27.8068 15.1901C27.9172 15.7209 27.6092 16.2058 27.1028 16.3422C26.6107 16.4751 26.0845 16.1932 25.9426 15.6661C25.7396 14.91 25.587 14.1395 25.2502 13.4256C23.8826 10.518 21.6332 8.72655 18.4813 8.07642C17.939 7.96417 17.6319 7.65078 17.604 7.18922C17.5753 6.72138 17.8285 6.33794 18.2658 6.19606C18.3583 6.16553 18.458 6.15565 18.546 6.1377Z"
+                                            fill="white" />
+                                    </svg>
+                                    <span>0333 301 0088</span>
+                                </a></li>
+
+                            <li><a href="mailto:sales@millionairedraw.com">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" viewBox="0 0 35 25"
+                                        fill="none">
+                                        <path
+                                            d="M0.00439872 2.52088C0.128274 2.14741 0.264585 1.78416 0.551796 1.50536C0.950355 1.11803 1.42589 0.994462 1.95407 0.993867C6.14402 0.986417 10.3331 0.972439 14.523 0.960325C20.3595 0.94345 26.196 0.925642 32.0325 0.910633C33.0516 0.907686 33.7622 1.47277 33.9378 2.4265C33.9666 2.58499 33.968 2.75009 33.9685 2.91239C33.9893 9.52113 34.0084 16.1299 34.0267 22.7386C34.0303 23.9792 33.312 24.749 32.136 24.7533C22.0768 24.7842 12.0176 24.8133 1.95832 24.8406C0.988821 24.8434 0.501149 24.4474 0.0645593 23.3284C0.0445049 16.3922 0.0244504 9.45609 0.00439872 2.52088ZM32.6847 22.3377C32.6661 15.9099 32.6478 9.56791 32.6293 3.18677C32.4958 3.2879 32.3976 3.36001 32.3021 3.43584C27.8565 6.96623 23.4118 10.4985 18.9644 14.027C17.7389 14.9988 16.3023 14.9974 15.0722 14.0327C10.5973 10.5225 6.12245 7.01135 1.64672 3.50209C1.55523 3.43053 1.48046 3.31601 1.344 3.32107C1.36235 9.6705 1.38069 16.0134 1.39923 22.4235C1.5308 22.2589 1.62175 22.1467 1.71004 22.0326C3.71238 19.4141 5.71472 16.7947 7.71706 14.1752C8.04284 13.7489 8.35973 13.3152 8.70062 12.9038C8.94083 12.6139 9.32717 12.5988 9.59459 12.8312C9.85135 13.0534 9.90206 13.4292 9.7151 13.7441C9.67453 13.8123 9.62331 13.8749 9.57475 13.9385C7.23956 16.9908 4.90438 20.045 2.57009 23.0991C2.49151 23.202 2.41649 23.3085 2.32469 23.4347C12.1615 23.4063 21.946 23.378 31.766 23.3496C31.6841 23.2342 31.628 23.1494 31.5666 23.0703C30.122 21.2024 28.6766 19.3354 27.2311 17.4684C26.2882 16.2501 25.3435 15.0346 24.405 13.8135C24.0812 13.3929 24.1808 12.8683 24.6056 12.6806C24.9109 12.5454 25.186 12.649 25.4644 13.0092C27.1749 15.2196 28.8846 17.4301 30.5952 19.6405C31.2766 20.5209 31.9588 21.4014 32.6847 22.3377ZM2.43309 2.38327C2.57612 2.50412 2.65786 2.57664 2.74313 2.64355C7.11851 6.07848 11.4939 9.51341 15.8693 12.9474C16.6083 13.5273 17.4236 13.5278 18.161 12.9426C22.5341 9.4703 26.9072 5.99608 31.2786 2.52187C31.3502 2.46476 31.4529 2.43089 31.4711 2.29931C21.8107 2.32724 12.1653 2.35513 2.43309 2.38327Z"
+                                            fill="white" />
+                                    </svg>
+                                    <span>sales@millionairedraw.com</span>
+                                </a></li>
+                            <li><a href="https://maps.app.goo.gl/14B1x3JGRoK2nsME6" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="38" viewBox="0 0 33 38"
+                                        fill="none">
+                                        <path
+                                            d="M18.454 37.8491C18.997 37.7166 19.5554 37.7611 20.1057 37.7129C22.6713 37.4897 25.1997 37.0755 27.6428 36.2186C29.0752 35.7164 30.4459 35.0892 31.5954 34.047C32.1647 33.5309 32.6117 32.9223 32.8392 32.1737C33.2689 30.7562 32.8048 29.5796 31.8347 28.5744C30.8674 27.5711 29.6581 26.9578 28.3926 26.4547C26.7254 25.7914 24.9957 25.3569 23.2324 25.0632C22.9387 25.0141 22.9305 24.9446 23.0801 24.7074C24.3276 22.7304 25.5768 20.7533 26.8034 18.7633C28.1605 16.5621 28.786 14.1561 28.6246 11.5537C28.4071 8.05448 26.9729 5.15932 24.3847 2.87655C22.6958 1.38681 20.7312 0.44276 18.5147 0.136105C14.0889 -0.475353 10.382 0.974542 7.5345 4.46355C5.11037 7.43375 4.31623 10.9061 5.02787 14.7157C5.31344 16.2452 5.91539 17.6469 6.74308 18.9542C7.95424 20.8673 9.14545 22.7943 10.3539 24.7093C10.5044 24.9483 10.4917 25.0141 10.2007 25.0641C8.17635 25.4134 6.18917 25.909 4.30807 26.7697C3.13408 27.307 2.03986 27.9676 1.2149 29.0173C0.227657 30.2745 0.168732 31.8763 1.08617 33.1937C1.76246 34.1656 2.7089 34.8002 3.72606 35.3283C5.78938 36.3992 8.01044 36.9477 10.2768 37.3275C11.7409 37.573 13.2159 37.7305 14.699 37.7898C14.8178 37.7945 14.9347 37.8287 15.0526 37.8491C16.1858 37.8491 17.3199 37.8491 18.454 37.8491ZM17.037 2.19746C20.0078 2.29659 22.655 3.65291 24.6186 6.35815C26.9457 9.56459 27.1043 14.1802 25.0093 17.5284C22.3213 21.8243 19.6352 26.1221 16.9482 30.419C16.717 30.7896 16.7161 30.7896 16.4931 30.4329C13.8405 26.187 11.1888 21.9401 8.53443 17.6951C7.00598 15.2502 6.56811 12.608 7.25528 9.80176C8.35403 5.3094 12.2731 2.18634 17.037 2.19746ZM16.9962 35.6303C15.369 35.6256 14.0091 35.5589 12.652 35.4181C10.295 35.1726 7.97871 34.7363 5.76581 33.8432C4.75591 33.4355 3.76685 32.9677 3.02438 32.1125C2.46594 31.4705 2.4741 30.9202 3.02438 30.2763C3.54293 29.6704 4.20472 29.2637 4.90186 28.9209C7.03408 27.8731 9.32042 27.408 11.6421 27.0745C11.8198 27.0486 11.8742 27.1542 11.9458 27.2691C12.2042 27.685 12.4644 28.0992 12.7236 28.5142C13.7208 30.1133 14.7199 31.7114 15.7116 33.3132C15.9963 33.7718 16.3707 34.022 16.9174 33.933C17.3099 33.8691 17.5429 33.5986 17.7432 33.2762C18.9707 31.3019 20.2045 29.3313 21.4293 27.3543C21.5571 27.1486 21.665 27.0347 21.9406 27.0967C22.4446 27.2107 22.965 27.2524 23.4736 27.3487C25.3864 27.7101 27.2603 28.2011 28.9827 29.1646C29.5348 29.4731 30.0525 29.8344 30.4595 30.3347C30.9427 30.9295 30.9382 31.4677 30.455 32.0625C30.2301 32.3395 29.9663 32.573 29.6771 32.7759C28.5294 33.58 27.243 34.0627 25.9186 34.4472C22.917 35.3208 19.8401 35.609 16.9962 35.6303Z"
+                                            fill="white" />
+                                        <path
+                                            d="M11.2898 12.2473C11.2852 15.3 13.7311 17.8033 16.7182 17.8023C19.7053 17.8014 22.1512 15.2972 22.1449 12.2455C22.1385 9.20673 19.7081 6.71921 16.7337 6.70902C13.7475 6.6979 11.2943 9.19376 11.2898 12.2473ZM13.4628 12.2501C13.4682 10.438 14.9414 8.93343 16.7137 8.92972C18.4833 8.92602 19.9592 10.4269 19.9719 12.2427C19.9846 14.0604 18.4815 15.5955 16.7028 15.5816C14.926 15.5668 13.4574 14.0576 13.4628 12.2501Z"
+                                            fill="white" />
+                                    </svg>
+                                    <span>16192 Coastal Highway, Lewes,
+                                        Delaware 19958</span>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- single item end -->
+
+
+            </div>
+            <!-- row  end -->
+            <div class="copyright">
+                <p>Copyright © 2023 Millionaire Draw LLC. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <!-- slick slider start  -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

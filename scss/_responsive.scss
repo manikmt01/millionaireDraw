@@ -1,25 +1,1046 @@
 /*// Extra large devices (large desktops, 1440px and up)*/
-@media (min-width: 2550px) {
+@media (min-width: 1900px) {
+  .container {
+    max-width: 1660px;
+  }
+  // header start
+  header {
+    padding: 30px 0 32px 0;
+    .container {
+      max-width: 1652px;
+    }
+    a {
+      &.logo {
+        width: 134px;
+      }
+    }
+    button {
+      background-color: transparent;
+      border: 0;
+    }
+  }
+  // header end
+  // MillionaireDraw start
+  .MillionaireDraw {
+    .container {
+      max-width: 1786px;
+      margin-right: 0;
+      padding: 0;
+    }
+    .itemLeft {
+      max-width: 755px;
+      h2 {
+        font-size: 45.533px;
+        line-height: 45.533px;
+        margin-bottom: 32px;
+      }
+      p {
+        font-size: 22.767px;
+        line-height: 33.201px;
+        margin-bottom: 8px;
+        strong {
+          font-size: 22.767px;
+          line-height: 8.533px;
+        }
+      }
+    }
+    .itemRight {
+      max-width: 960px;
+    }
+    &.ourCommunity {
+      .itemLeft {
+        max-width: 776px;
+        width: 776px;
+        ul {
+          gap: 65px;
+          margin-top: 53px;
+          li {
+            a {
+              svg {
+                width: 109.333px;
+                height: 109.333px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // MillionaireDraw end
+  // myTickets start
+  .myTickets {
+    padding-top: 106px;
+    padding-bottom: 106px;
+    .container {
+      max-width: 1625px;
+    }
+    .sliderWrapp {
+      .slider {
+        .sliderItme {
+          margin: 0 13px;
+        }
+      }
+    }
+    &.winners {
+      .commonTitle {
+        margin-bottom: 30px;
+      }
+      .sliderWinner {
+        .sliderItme {
+          margin: 0 21.5px;
+          img {
+            margin-bottom: 22px;
+          }
+          h4 {
+            font-size: 22.767px;
+            line-height: 32px;
+          }
+        }
+      }
+      .arrow {
+        top: 40%;
+      }
+    }
+  }
+  .commonTitle {
+    margin-bottom: 42px;
+    h2 {
+      font-size: 45.533px;
+      line-height: 45.533px;
+      margin-bottom: 25px;
+    }
+    p {
+      font-size: 22.767px;
+      line-height: 33.201px;
+    }
+  }
+  // myTickets end
+  .qrBox {
+    .itemRight {
+      .qrCode {
+        margin-bottom: 53px;
+      }
+      a {
+        padding: 20.114px 54.057px;
+        border-radius: 62.857px;
+        font-size: 38.171px;
+        line-height: 30.171px;
+        .walletImg {
+          margin-right: 26px;
+          width: 94.667px;
+        }
+      }
+    }
+  }
+  // footer start
+  footer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    .container {
+      max-width: 1650px;
+    }
+    .itemLeft {
+      .logoImg {
+        img {
+          width: 300px;
+        }
+      }
+      ul {
+        margin-top: 70px;
+        gap: 50px;
+      }
+    }
+    .itemLink {
+      h4 {
+        font-size: 22.767px;
+        line-height: 32px;
+      }
+      ul {
+        li {
+          line-height: 60px;
+          a {
+            font-size: 22.767px;
+            line-height: 60px;
+          }
+        }
+      }
+    }
+    .itemEnd {
+      h4 {
+        font-size: 22.767px;
+        line-height: 32px;
+      }
+      ul {
+        li {
+          margin-bottom: 40px;
+          a {
+            font-size: 22.767px;
+            line-height: 32px;
+            padding-left: 50px;
+          }
+        }
+      }
+    }
+    .copyright {
+      margin-top: 60px;
+      padding-top: 20px;
+      p {
+        font-size: 24px;
+        line-height: 24px;
+      }
+    }
+  }
+  // footer end
 }
 
 /*// Extra large devices (large desktops, 1440px and up)*/
 @media (min-width: 1700px) and (max-width: 2099.98px) {
 }
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1700px) and (max-width: 2099.98px) {
+}
 
 /*// Extra large devices (large desktops, 1440px and up)*/
-@media (min-width: 1440px) and (max-width: 1699.98px) {
+@media (min-width: 1500px) and (max-width: 1699.98px) {
+  .container {
+    max-width: 1360px;
+  }
+  // header start
+  header {
+    padding: 24.5px 0 25px 0;
+    .container {
+      max-width: 1322px;
+    }
+    a {
+      &.logo {
+        width: 131.2px;
+      }
+    }
+    button {
+      background-color: transparent;
+      border: 0;
+    }
+  }
+  // header end
+  // MillionaireDraw start
+  .MillionaireDraw {
+    .container {
+      max-width: 1430px;
+      margin-right: 0;
+      padding: 0;
+    }
+    .itemLeft {
+      max-width: 602px;
+      h2 {
+        font-size: 45.533px;
+        line-height: 45.533px;
+        margin-bottom: 24px;
+      }
+      p {
+        font-size: 22.767px;
+        line-height: 33.201px;
+        margin-bottom: 5px;
+        strong {
+          font-size: 22.767px;
+          font-weight: 700;
+          line-height: 8.533px;
+        }
+      }
+    }
+    .itemRight {
+      max-width: 768px;
+    }
+    &.ourCommunity {
+      .itemLeft {
+        max-width: 620px;
+        width: 620px;
+        ul {
+          gap: 45px;
+          margin-top: 35px;
+          li {
+            a {
+              svg {
+                width: 77.786px;
+                height: 77.786px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // MillionaireDraw end
+  // myTickets start
+  .myTickets {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    .container {
+      max-width: 1156px;
+    }
+    .sliderWrapp {
+      .slider {
+        .sliderItme {
+          margin: 0 8px;
+        }
+      }
+    }
+    &.winners {
+      .commonTitle {
+        margin-bottom: 25px;
+      }
+      .sliderWinner {
+        .sliderItme {
+          margin: 0 19 0.5px;
+          img {
+            margin-bottom: 20px;
+          }
+          h4 {
+            font-size: 22.77px;
+            line-height: 22.8px;
+          }
+        }
+      }
+      .arrow {
+        top: 40%;
+      }
+    }
+  }
+  .commonTitle {
+    margin-bottom: 35px;
+    h2 {
+      font-size: 45.533px;
+      line-height: 45.533px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 22.767px;
+      line-height: 33.201px;
+    }
+    &.winners {
+      .sliderWinner {
+        .sliderItme {
+          margin: 0 20px;
+          h4 {
+            font-size: 24px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+  // myTickets end
+  .qrBox {
+    .itemRight {
+      .qrCode {
+        margin-bottom: 40px;
+      }
+      a {
+        padding: 16.091px 43.246px;
+        border-radius: 50.286px;
+        font-size: 24px;
+        line-height: 24px;
+        .walletImg {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  // footer start
+  footer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    .container {
+      max-width: 1300px;
+    }
+    .itemLeft {
+      .logoImg {
+        img {
+          width: 243.2px;
+        }
+      }
+      ul {
+        margin-top: 50px;
+        gap: 40px;
+      }
+    }
+    .itemLink {
+      h4 {
+        font-size: 22.767px;
+        line-height: 32px;
+      }
+      ul {
+        li {
+          line-height: 60px;
+          a {
+            font-size: 22.767px;
+            line-height: 60px;
+          }
+        }
+      }
+    }
+    .itemEnd {
+      h4 {
+        font-size: 22.767px;
+        line-height: 32px;
+      }
+      ul {
+        li {
+          margin-bottom: 40px;
+          a {
+            font-size: 22.767px;
+            line-height: 32px;
+            padding-left: 50px;
+          }
+        }
+      }
+    }
+    .copyright {
+      margin-top: 60px;
+      padding-top: 20px;
+      p {
+        font-size: 19.2px;
+        line-height: 19.2px;
+      }
+    }
+  }
+  // footer end
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1439.98px) {
+  .container {
+    max-width: 1220px;
+  }
+  // header start
+  header {
+    padding: 22px 0 23px 0;
+    .container {
+      max-width: 1175px;
+    }
+    a {
+      &.logo {
+        width: 116px;
+      }
+    }
+  }
+  // header end
+  // MillionaireDraw start
+  .MillionaireDraw {
+    .container {
+      max-width: 1270px;
+      margin-right: 0;
+      padding: 0;
+    }
+    .itemLeft {
+      max-width: 535px;
+      h2 {
+        font-size: 45.533px;
+        line-height: 45.533px;
+        margin-bottom: 22px;
+      }
+      p {
+        font-size: 22.767px;
+        line-height: 33.201px;
+        margin-bottom: 4px;
+        strong {
+          font-size: 22.767px;
+          font-weight: 700;
+          line-height: 8.533px;
+        }
+      }
+    }
+    .itemRight {
+      max-width: 683px;
+    }
+    &.ourCommunity {
+      .itemLeft {
+        max-width: 552px;
+        width: 552px;
+        ul {
+          gap: 40px;
+          margin-top: 37px;
+          li {
+            a {
+              svg {
+                width: 70px;
+                height: 70px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // MillionaireDraw end
+  // myTickets start
+  .myTickets {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    .container {
+      max-width: 1156px;
+    }
+    .sliderWrapp {
+      .slider {
+        .sliderItme {
+          margin: 0 9.5px;
+        }
+      }
+    }
+    &.winners {
+      .commonTitle {
+        margin-bottom: 30px;
+      }
+      .sliderWinner {
+        .sliderItme {
+          margin: 0 19px;
+          img {
+            margin-bottom: 20px;
+          }
+          h4 {
+            font-size: 22.767px;
+            line-height: 32px;
+          }
+        }
+      }
+      .arrow {
+        top: 40%;
+      }
+    }
+  }
+  .commonTitle {
+    margin-bottom: 37px;
+    h2 {
+      font-size: 45.533px;
+      line-height: 45.533px;
+      margin-bottom: 18px;
+    }
+    p {
+      font-size: 22.767px;
+      line-height: 33.201px;
+    }
+  }
+  // myTickets end
+  .qrBox {
+    .itemRight {
+      .qrCode {
+        margin-bottom: 40px;
+      }
+      a {
+        padding: 11.383px 34.15px;
+        border-radius: 47.431px;
+        font-size: 20.86px;
+        line-height: 22px;
+        .walletImg {
+          margin-right: 18px;
+          width: 67.351px;
+        }
+      }
+    }
+  }
+  // footer start
+  footer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    .container {
+      max-width: 1155px;
+    }
+    .itemLeft {
+      .logoImg {
+        img {
+          width: 215px;
+        }
+      }
+      ul {
+        margin-top: 50px;
+        gap: 37px;
+      }
+    }
+    .itemLink {
+      h4 {
+        font-size: 22.767px;
+        line-height: 32px;
+      }
+      ul {
+        li {
+          line-height: 60px;
+          a {
+            font-size: 22.767px;
+            line-height: 60px;
+          }
+        }
+      }
+    }
+    .itemEnd {
+      h4 {
+        font-size: 22.767px;
+        line-height: 32px;
+      }
+      ul {
+        li {
+          margin-bottom: 40px;
+          a {
+            font-size: 22.767px;
+            line-height: 32px;
+            padding-left: 50px;
+          }
+        }
+      }
+    }
+    .copyright {
+      margin-top: 60px;
+      padding-top: 20px;
+      p {
+        font-size: 17px;
+        line-height: 17px;
+      }
+    }
+  }
+  // footer end
 }
 
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 881px;
+  }
+  // header start
+  header {
+    padding: 16px 0 17px 0;
+    .container {
+      max-width: 881px;
+    }
+    a {
+      &.logo {
+        width: 116px;
+      }
+    }
+    .menuBar {
+      .showMenu {
+        img {
+          width: 30px;
+        }
+      }
+    }
+  }
+  // header end
+  // MillionaireDraw start
+  .MillionaireDraw {
+    .container {
+      max-width: 952px;
+      margin-right: 0;
+      padding: 0;
+    }
+    .itemLeft {
+      max-width: 402px;
+      h2 {
+        font-size: 34.133px;
+        line-height: 34.133px;
+        margin-bottom: 16px;
+      }
+      p {
+        font-size: 17.067px;
+        line-height: 24.889px;
+        margin-bottom: 4px;
+        strong {
+          font-size: 17.067px;
+          font-weight: 700;
+          line-height: 8.533px;
+        }
+      }
+    }
+    .itemRight {
+      max-width: 683px;
+    }
+    &.ourCommunity {
+      .itemLeft {
+        max-width: 413px;
+        width: 413px;
+        ul {
+          gap: 30px;
+          margin-top: 30px;
+          li {
+            a {
+              svg {
+                width: 55px;
+                height: 55px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // MillionaireDraw end
+  // myTickets start
+  .myTickets {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    .container {
+      max-width: 866px;
+    }
+    .sliderWrapp {
+      .slider {
+        .sliderItme {
+          margin: 0 7px;
+        }
+      }
+    }
+    &.winners {
+      .commonTitle {
+        margin-bottom: 30px;
+      }
+      .sliderWinner {
+        .sliderItme {
+          margin: 0 14px;
+          img {
+            margin-bottom: 15px;
+          }
+          h4 {
+            font-size: 17.067px;
+            line-height: 32px;
+          }
+        }
+      }
+      .arrow {
+        top: 40%;
+      }
+    }
+  }
+  .commonTitle {
+    margin-bottom: 37px;
+    h2 {
+      font-size: 34.133px;
+      line-height: 34.133px;
+      margin-bottom: 18px;
+    }
+    p {
+      font-size: 17.067px;
+      line-height: 24.889px;
+    }
+  }
+  // myTickets end
+  .qrBox {
+    .itemRight {
+      .qrCode {
+        margin-bottom: 28px;
+        width: 331px;
+      }
+      a {
+        padding: 8.533px 25.6px;
+        border-radius: 35.556px;
+        font-size: 15.64px;
+        line-height: 17px;
+        .walletImg {
+          margin-right: 13px;
+          width: 50px;
+        }
+      }
+    }
+  }
+  // footer start
+  footer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    .container {
+      max-width: 1155px;
+    }
+    .itemLeft {
+      .logoImg {
+        img {
+          width: 190px;
+        }
+      }
+      ul {
+        margin-top: 50px;
+        gap: 25px;
+        li {
+          a {
+            svg {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+      }
+    }
+    .itemLink {
+      h4 {
+        font-size: 17.067px;
+        line-height: 32px;
+      }
+      ul {
+        li {
+          line-height: 40px;
+          a {
+            font-size: 17.067px;
+            line-height: 40px;
+          }
+        }
+      }
+    }
+    .itemEnd {
+      h4 {
+        font-size: 17.067px;
+        line-height: 32px;
+      }
+      ul {
+        li {
+          margin-bottom: 20px;
+          a {
+            font-size: 17.067px;
+            line-height: 32px;
+            padding-left: 50px;
+          }
+        }
+      }
+    }
+    .copyright {
+      margin-top: 60px;
+      padding-top: 20px;
+      p {
+        font-size: 16px;
+        line-height: 16px;
+      }
+    }
+  }
+  .myTickets .sliderWrapp .arrow button {
+    img {
+      width: 14px;
+    }
+  }
+  // footer end
 }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
+  .d-none {
+    display: none !important;
+  }
+  // header start
+  header {
+    padding: 16px 0 17px 0;
+
+    a {
+      &.logo {
+        width: 100px;
+      }
+    }
+    .menuBar {
+      .showMenu {
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+  // header end
+  // MillionaireDraw start
+  .MillionaireDraw {
+    padding: 60px 0;
+    .container {
+      margin-right: auto;
+      padding: 0 12px;
+    }
+    .itemLeft {
+      max-width: 100%;
+      text-align: center;
+      // remove
+      h2 {
+        font-size: 34.133px;
+        line-height: 34.133px;
+        margin-bottom: 16px;
+      }
+      p {
+        font-size: 17.067px;
+        line-height: 24.889px;
+        margin-bottom: 10px;
+        strong {
+          font-size: 17.067px;
+          font-weight: 700;
+          line-height: 8.533px;
+        }
+      }
+    }
+    .itemRight {
+      max-width: 100%;
+    }
+    &.ourCommunity {
+      .itemLeft {
+        max-width: 100%;
+        width: 100%;
+        ul {
+          gap: 30px;
+          margin-top: 30px;
+          justify-content: center;
+          li {
+            a {
+              svg {
+                width: 40px;
+                height: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // MillionaireDraw end
+  // myTickets start
+  .myTickets {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    .container {
+      max-width: 866px;
+    }
+    .sliderWrapp {
+      padding: 0 40px;
+      .slider {
+        .sliderItme {
+          margin: 0 7px;
+        }
+      }
+    }
+    &.winners {
+      .commonTitle {
+        margin-bottom: 30px;
+      }
+      .sliderWinner {
+        .sliderItme {
+          margin: 0 14px;
+          img {
+            margin-bottom: 15px;
+          }
+          h4 {
+            font-size: 17.067px;
+            line-height: 32px;
+          }
+        }
+      }
+      .arrow {
+        top: 40%;
+      }
+    }
+    .arrow {
+      width: 100% !important;
+      left: 0 !important;
+    }
+  }
+  .commonTitle {
+    margin-bottom: 37px;
+    h2 {
+      font-size: 34.133px;
+      line-height: 34.133px;
+      margin-bottom: 18px;
+    }
+    p {
+      font-size: 17.067px;
+      line-height: 24.889px;
+    }
+  }
+  // myTickets end
+  .qrBox {
+    padding: 0 12px;
+    .itemLeft {
+      margin-bottom: 30px;
+    }
+    .itemRight {
+      .qrCode {
+        margin-bottom: 28px;
+        width: 331px;
+      }
+      a {
+        padding: 8.533px 25.6px;
+        border-radius: 35.556px;
+        font-size: 15.64px;
+        line-height: 17px;
+        .walletImg {
+          margin-right: 13px;
+          width: 35px;
+        }
+      }
+    }
+    .mt-50 {
+      margin-top: 60px;
+    }
+  }
+  // footer start
+  footer {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    .container {
+      max-width: 1155px;
+    }
+    .itemLeft {
+      .logoImg {
+        img {
+          width: 190px;
+        }
+      }
+      ul {
+        margin-top: 20px !important;
+        justify-content: center;
+        gap: 25px;
+        li {
+          a {
+            svg {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+      }
+    }
+    .itemLink {
+      h4 {
+        font-size: 17.067px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+      ul {
+        li {
+          line-height: 40px;
+          a {
+            font-size: 17.067px;
+            line-height: 40px;
+          }
+        }
+      }
+    }
+    .itemEnd {
+      h4 {
+        font-size: 17.067px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+      ul {
+        li {
+          margin-bottom: 20px;
+          a {
+            font-size: 17.067px;
+            line-height: 32px;
+            padding-left: 50px;
+          }
+        }
+      }
+    }
+    .copyright {
+      margin-top: 60px;
+      padding-top: 20px;
+      p {
+        font-size: 16px;
+        line-height: 16px;
+      }
+    }
+  }
+  .myTickets .sliderWrapp .arrow button {
+    img {
+      width: 14px;
+    }
+  }
+  .mt-30 {
+    margin-top: 40px !important;
+  }
+  // footer end
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -28,6 +1049,18 @@
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+  header .menuBar .fixedMenu.active {
+    width: 100%;
+  }
+  h2 {
+    font-size: 28px !important;
+    line-height: 1.4 !important;
+  }
+  .googleMap {
+    .container {
+      padding: 0;
+    }
+  }
 }
 
 /*Extra small devices (portrait phones, less than 414px)*/
